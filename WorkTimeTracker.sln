@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTimeTracker", "WorkTimeTracker\WorkTimeTracker.csproj", "{4D45E6B1-0C8B-4F24-8F88-6F237091A90B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTimeTracker", "WorkTimeTracker\WorkTimeTracker.csproj", "{4D45E6B1-0C8B-4F24-8F88-6F237091A90B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF34B2B4-61AC-4795-902D-55647B73B348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D45E6B1-0C8B-4F24-8F88-6F237091A90B} = {FF34B2B4-61AC-4795-902D-55647B73B348}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33976951-D4F3-48FD-8806-675C3C79C54A}

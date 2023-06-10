@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WorkTimeTracker.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "show"
+    }
+  }
+}
